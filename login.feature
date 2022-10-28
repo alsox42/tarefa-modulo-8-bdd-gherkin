@@ -13,7 +13,7 @@ Dado que eu acesse a página de autenticação da loja EBAC
 Cenário: Autenticação válida
 Quando eu digitar o usuario "andre@ebac.com.br"
 E a senha "teste@123"
-Então deve ser direcionado para a tela de checkout
+Então deve permitir acesso a plataforma
 
 
 Cenário: Autenticação com dados inválida
