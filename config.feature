@@ -8,18 +8,11 @@ Para depois inserir no carrinho
 
 Cenário: Limitar adicionar produtos
 Dado que eu acesse a página de autenticação da loja EBAC com dados válidos 
-Quando eu escolher a cor
-E eu escolher o tamanho
-E eu escolher a quantidade
-E eu inserir no carrinho 
+Quando eu escolher a cor, tamanho, quantidade e inserir no carrinho 
 Então deve permitir inserir apenas 10 produtos por venda
 
 Cenário: Limpar dados da tela
 Dado que eu acesse a página de autenticação da loja EBAC com dados válidos 
-Quando eu escolher a cor
-E eu escolher o tamanho
-E eu escolher a quantidade
-E eu inserir no carrinho 
-E eu clicar no botão "limpar"
+Quando eu escolher a cor, tamanho, quantidade, inserir no carrinho e clicar no botão "limpar"
 Então deve voltar ao estado original
 
